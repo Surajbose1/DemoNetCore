@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {}
+    "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
+    "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
         "projectName": "DempApp.Data",
-        "projectPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
-        "packagesPath": "C:\\Users\\Suraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
+        "packagesPath": "C:\\Users\\bosesu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Suraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bosesu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,11 +69,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

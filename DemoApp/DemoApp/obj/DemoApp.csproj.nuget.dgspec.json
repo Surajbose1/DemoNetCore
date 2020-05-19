@@ -1,23 +1,113 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj": {}
+    "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj": {
+    "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
+        "projectUniqueName": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
         "projectName": "DemoApp",
-        "projectPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
-        "packagesPath": "C:\\Users\\Suraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\obj\\",
+        "projectPath": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
+        "packagesPath": "C:\\Users\\bosesu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Suraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bosesu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
+                "projectPath": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
+        "projectName": "DempApp.Data",
+        "projectPath": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
+        "packagesPath": "C:\\Users\\bosesu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bosesu\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bosesu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,27 +133,19 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.4, )"
             },
-            "Microsoft.AspNetCore.Identity.UI": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -84,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

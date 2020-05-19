@@ -1,0 +1,8 @@
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\bin\Debug\netcoreapp3.1\DempApp.Data.deps.json
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\bin\Debug\netcoreapp3.1\DempApp.Data.dll
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.AssemblyInfoInputs.cache
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.AssemblyInfo.cs
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\bin\Debug\netcoreapp3.1\DempApp.Data.pdb
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.dll
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.pdb
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.csprojAssemblyReference.cache
