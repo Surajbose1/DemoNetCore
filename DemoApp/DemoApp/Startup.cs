@@ -12,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using DempApp.Data;
+using Microsoft.AspNetCore.Routing;
+using DemoApp.Security;
 
 namespace DemoApp
 {
@@ -46,6 +48,11 @@ namespace DemoApp
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.Configure<RouteOptions>(routeOptions =>
+            {
+                routeOptions.ConstraintMap.Add("customroute", typeof(CustomRouteConstraint));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

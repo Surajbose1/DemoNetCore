@@ -32,5 +32,11 @@ namespace DemoApp.Controllers
         {
             return Content("Route Found with name(Datetime) " + name);
         }
+
+        [Route("TestCustomRoute/{name:customroute}")]
+        public IActionResult TestCustomRoute(string name)
+        {
+            return Content("Route Found with name(Custom Constraint) " + name);
+        }
     }
 }
