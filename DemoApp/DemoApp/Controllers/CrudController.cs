@@ -6,6 +6,9 @@ using System.Linq;
 
 namespace DemoApp.Controllers
 {
+    /// <summary>
+    /// Play with CRUD Operations, Delete not implemented as its matter of copy paste
+    /// </summary>
     public class CrudController : Controller
     {
 
