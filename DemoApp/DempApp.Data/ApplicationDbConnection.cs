@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using DempApp.Data.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DempApp.Data
@@ -9,5 +10,7 @@ namespace DempApp.Data
         {
 
         }
+
+        public DbSet<Vehicle> Vehicle { get; set; }
     }
 }

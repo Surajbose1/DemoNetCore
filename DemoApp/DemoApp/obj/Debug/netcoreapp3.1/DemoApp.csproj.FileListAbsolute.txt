@@ -332,3 +332,6 @@ C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1
 C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Configuration\Index.cshtml.g.cs
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Crud\Index.cshtml.g.cs
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Crud\ViewDetails.cshtml.g.cs
+C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Crud\EditDetails.cshtml.g.cs
