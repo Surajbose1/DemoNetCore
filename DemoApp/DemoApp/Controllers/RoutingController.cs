@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Routing;
 
 namespace DemoApp.Controllers
 {
+    /// <summary>
+    /// Play with Routing, parameters and route constraints
+    /// </summary>
     public class RoutingController : Controller
     {
         [Route("TestRoute/{name:alpha}")]

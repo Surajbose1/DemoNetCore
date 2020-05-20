@@ -4,14 +4,16 @@ using DempApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DempApp.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbConnection))]
-    partial class ApplicationDbConnectionModelSnapshot : ModelSnapshot
+    [Migration("20200520062835_ConfigureDBRelations_OneToOne")]
+    partial class ConfigureDBRelations_OneToOne
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -65,56 +67,6 @@ namespace DempApp.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("AuthorBiography");
-                });
-
-            modelBuilder.Entity("DempApp.Data.Models.ConfigureDBRelations+Book", b =>
-                {
-                    b.Property<int>("BookId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("AuthorId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("BookId");
-
-                    b.HasIndex("AuthorId");
-
-                    b.ToTable("Book");
-                });
-
-            modelBuilder.Entity("DempApp.Data.Models.ConfigureDBRelations+BookCategory", b =>
-                {
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.HasKey("BookId", "CategoryId");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("BookCategory");
-                });
-
-            modelBuilder.Entity("DempApp.Data.Models.ConfigureDBRelations+Category", b =>
-                {
-                    b.Property<int>("CategoryId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("CategoryName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("CategoryId");
-
-                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("DempApp.Data.Models.ConfigureDBRelations+Company", b =>
@@ -378,28 +330,6 @@ namespace DempApp.Data.Migrations
                     b.HasOne("DempApp.Data.Models.ConfigureDBRelations+Author", "Author")
                         .WithOne("Biography")
                         .HasForeignKey("DempApp.Data.Models.ConfigureDBRelations+AuthorBiography", "AuthorRef")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("DempApp.Data.Models.ConfigureDBRelations+Book", b =>
-                {
-                    b.HasOne("DempApp.Data.Models.ConfigureDBRelations+Author", "Author")
-                        .WithMany()
-                        .HasForeignKey("AuthorId");
-                });
-
-            modelBuilder.Entity("DempApp.Data.Models.ConfigureDBRelations+BookCategory", b =>
-                {
-                    b.HasOne("DempApp.Data.Models.ConfigureDBRelations+Book", "Book")
-                        .WithMany("BookCategories")
-                        .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("DempApp.Data.Models.ConfigureDBRelations+Category", "Category")
-                        .WithMany("BookCategories")
-                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
