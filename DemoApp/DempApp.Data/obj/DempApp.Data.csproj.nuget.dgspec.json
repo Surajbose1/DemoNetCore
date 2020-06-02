@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {}
+    "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
+    "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
         "projectName": "DempApp.Data",
-        "projectPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
+        "projectPath": "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj",
         "packagesPath": "C:\\Users\\Suraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
