@@ -9,7 +9,6 @@ C:\Users\bosesu\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcorea
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\bin\Debug\netcoreapp3.1\DempApp.Data.deps.json
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\bin\Debug\netcoreapp3.1\DempApp.Data.dll
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\bin\Debug\netcoreapp3.1\DempApp.Data.pdb
-C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.csprojAssemblyReference.cache
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.AssemblyInfoInputs.cache
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.AssemblyInfo.cs
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.dll
