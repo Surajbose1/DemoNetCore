@@ -129,8 +129,6 @@ C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.Views.pdb
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.dll
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.pdb
@@ -401,3 +399,5 @@ C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Crud\Index.cshtml.g.cs
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Crud\ViewDetails.cshtml.g.cs
 C:\Users\Suraj\Source\Repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Suraj\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Suraj\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cache
