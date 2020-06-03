@@ -399,7 +399,11 @@ C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Crud\Index.cshtml.g.cs
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\Crud\ViewDetails.cshtml.g.cs
 C:\Users\Suraj\Source\Repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\Dapper.dll
-C:\Users\Suraj\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Suraj\Source\Repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\ImageUpload\Create.cshtml.g.cs
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\ImageUpload\Index.cshtml.g.cs
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\nlog.config
