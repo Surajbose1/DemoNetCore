@@ -407,3 +407,4 @@ C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Debug\netcoreapp3.1\Razor\Views\NotFound\NotFoundAction.cshtml.g.cs
