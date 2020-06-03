@@ -32,5 +32,10 @@ namespace DemoApp.Controllers
 
             return View("Index",model);
         }
+
+        public IActionResult HostProcessName()
+        {
+            return Content(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
+        }
     }
 }

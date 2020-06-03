@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DemoApp.Models.PhoneViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    var rootPath = "~/Images/";
+    string filePath = string.Empty;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Manufacturer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageFile)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @{ 
+                    filePath = rootPath + item.ImagePath ?? "noimage.jpg";
+                }
+               <img class="card-img-top" src="@filePath" asp-append-version="true" style="width: 20px" />
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.PhoneId">Details</a> |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

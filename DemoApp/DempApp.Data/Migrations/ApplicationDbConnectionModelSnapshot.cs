@@ -152,6 +152,27 @@ namespace DempApp.Data.Migrations
                     b.ToTable("Employee");
                 });
 
+            modelBuilder.Entity("DempApp.Data.Models.Phone", b =>
+                {
+                    b.Property<Guid>("PhoneId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ImageFile")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Manufacturer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Model")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PhoneId");
+
+                    b.ToTable("Phone");
+                });
+
             modelBuilder.Entity("DempApp.Data.Models.Vehicle", b =>
                 {
                     b.Property<Guid>("VehicleId")

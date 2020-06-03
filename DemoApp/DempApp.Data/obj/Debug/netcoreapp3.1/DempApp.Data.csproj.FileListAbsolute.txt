@@ -13,3 +13,4 @@ C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreap
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.AssemblyInfo.cs
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.dll
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.pdb
+C:\Users\Suraj\Source\Repos\DemoNetCore\DemoApp\DempApp.Data\obj\Debug\netcoreapp3.1\DempApp.Data.csprojAssemblyReference.cache

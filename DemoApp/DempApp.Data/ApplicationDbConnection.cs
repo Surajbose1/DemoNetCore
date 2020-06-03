@@ -14,6 +14,8 @@ namespace DempApp.Data
 
         public DbSet<Vehicle> Vehicle { get; set; }
 
+        public DbSet<Phone> Phone { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //One to Many(A company has multiple employees)

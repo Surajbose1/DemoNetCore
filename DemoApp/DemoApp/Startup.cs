@@ -45,7 +45,7 @@ namespace DemoApp
                 options.Password.RequireUppercase = false;
             });
 
-
+            services.AddMvc();
             services.AddControllersWithViews();
             services.AddRazorPages();
 

@@ -8630,11 +8630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
+      "projectUniqueName": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
       "projectName": "DemoApp",
-      "projectPath": "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
+      "projectPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\DemoApp.csproj",
       "packagesPath": "C:\\Users\\Suraj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DemoApp\\obj\\",
+      "outputPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DemoApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8653,8 +8653,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
-              "projectPath": "C:\\Users\\Suraj\\Source\\Repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj"
+            "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj": {
+              "projectPath": "C:\\Users\\Suraj\\source\\repos\\DemoNetCore\\DemoApp\\DempApp.Data\\DempApp.Data.csproj"
             }
           }
         }
