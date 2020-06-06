@@ -199,3 +199,11 @@ C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Release\netcoreapp3.
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.csproj.CopyComplete
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.dll
 C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.pdb
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Release\netcoreapp3.1\nlog.config
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Release\netcoreapp3.1\Dapper.dll
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Release\netcoreapp3.1\NLog.dll
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Release\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\bin\Release\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Release\netcoreapp3.1\Razor\Views\ImageUpload\Create.cshtml.g.cs
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Release\netcoreapp3.1\Razor\Views\ImageUpload\Index.cshtml.g.cs
+C:\Users\Suraj\source\repos\DemoNetCore\DemoApp\DemoApp\obj\Release\netcoreapp3.1\Razor\Views\NotFound\NotFoundAction.cshtml.g.cs
