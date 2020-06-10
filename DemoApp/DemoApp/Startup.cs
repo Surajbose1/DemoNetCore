@@ -53,6 +53,8 @@ namespace DemoApp
             {
                 routeOptions.ConstraintMap.Add("customroute", typeof(CustomRouteConstraint));
             });
+
+            services.AddScoped<LoginFilter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

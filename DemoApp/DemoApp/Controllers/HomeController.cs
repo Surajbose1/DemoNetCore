@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DemoApp.Models;
+using DemoApp.Security;
 
 namespace DemoApp.Controllers
 {
@@ -23,6 +24,7 @@ namespace DemoApp.Controllers
             return View();
         }
 
+        [ServiceFilter(typeof(LoginFilter))]
         public IActionResult Privacy()
         {
             return View();
